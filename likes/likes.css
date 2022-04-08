@@ -1,0 +1,67 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* MY CSS CODE*/
+#container {
+    width: 325px;
+    height: 200px;
+}
+.navbar {
+    width: 450px;
+    height: 100px;
+    margin-top: 15px;
+    display:flex;
+    display:inline-flex;
+    border-style: solid;
+}
+.some_user {
+    width: 350px;
+    height: 200px;
+    margin-top: 15px;
+    display: inline-block;
+    justify-content: space-evenly;
+    font-size: large;
+}
+.neil_m {
+    width: 450px;
+    height: 135px;
+    margin-top: 15px;
+    display:inline-block;
+    justify-content: space-evenly;
+    border-style: solid;
+}
+.nichole_k {
+    width: 450px;
+    height: 135px;
+    margin-top: 15px;
+    display:inline-block;
+    justify-content: space-evenly;
+    border-style: solid;
+}
+.jim_r {
+    width: 450px;
+    height: 135px;
+    margin-top: 15px;
+    display:inline-block;
+    justify-content: space-evenly;
+    border-style: solid;
+}
+.like_button {
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+}
+.likes {
+    width: 85px;
+    height: 50px;
+    background-color: yellow;
+    border: solid;
+    border-color: black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

@@ -1,0 +1,53 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* MY CSS CODE*/
+#container {
+    width: 600px;
+    height: 600px;
+}
+.header {
+    height: 80px;
+    width: 1200px;
+    background-color: lightgrey;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.searchBar {
+    height: 25px;
+    width: 100px;
+    margin-top: 10px;
+}
+.loginButton {
+    height: 40px;
+    width: 80px;
+    color: blue;
+    margin-top: 10px;
+    padding: 25px;
+    margin-left: 200px;
+}
+.navbar {
+    display:flex;
+}
+.leftBar {
+    width: 700px;
+    height: 1000px;
+    background-color: beige;
+    padding: 10px;
+    margin: 10px;
+}
+.topNinja {
+    height: 500px;
+    width: 600px;
+}
+.botNinja {
+    height: 500px;
+    width: 600px;
+}
+.likeButton {
+    width: 100px;
+    height: 100px;    
+}

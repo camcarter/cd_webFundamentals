@@ -1,0 +1,22 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* MY CSS CODE */
+#container {
+    width: 950px;
+    height: 500px;
+    background-color: red;
+}
+.bigstar {
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+    margin-bottom: 15px;
+}
+.smallstar {
+    height: 15px;
+    width: 15px;
+    background-color: yellow;

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="belt_exam.css">
+    <title>Belt Exam</title>
+</head>
+<body>
+    <div id="container">
+        <div class="navbar">
+            <h1>GamingDojo</h1>
+        <div class="add_cart">
+            <select onchange="chooseCurrency(this)">
+                <option>Euro €</option>
+                <option>USD $</option>
+            </select>
+                <img src="images/cart-light.png" alt="shoppingcart"
+                width="35">
+                <p class="cart">0</p>
+                <p class="search"><img src="images/search-light.png" alt="search"
+                width="35">
+        </div>
+    </div>
+        <div class="advertisement">
+            <header class="h3"><h3>Highlights</h3></header>
+            <img src="images/stonepunk.png" alt="stonkepunk" class="center"
+            width="650">
+        </div>
+        <div class="middlebars">
+        </div>
+        <div class="subcontent">
+            <img src="images/cafe-neko.png"
+            width="300" alt="neko">
+            <header class="h4"><h4>Cafe Neko: Gold Edition</h4></header>
+            <img src="images/windows.png"
+            width="35" alt="windows">
+            <img src="images/apple.png"
+            width="35" alt="apple">
+                <div class="subtext">
+                <button class="discount">-20%</button>
+                <p class="strike_text">€14.98</p>
+                <p class="center_text"><p>€10.49</p>
+                <button class="buy" onclick="cartValue()">Buy</button>
+                </div>
+        </div>
+        <div class="subcontent">
+            <img src="images/pixel-ninjas-2.png"
+            width="300" alt="pixelninja">
+            <header class="h4"><h4>Pixel Ninjas 2</h4></header>
+            <img src="images/windows.png"
+            width="35" alt="windows">
+            <img src="images/apple.png"
+            width="35" alt="apple">
+                <div class="subtext">
+                <button class="discount">-10%</button>
+                <p class="strike_text">€8.19</p>
+                <p class="center_text"><p>€7.39</p>
+                <button class="buy" onclick="cartValue()">Buy</button>
+                </div>
+        </div>
+        <div class="subcontent">
+            <img src="images/stonepunk.png"
+            width="300" alt="stonepunk">
+            <header class="h4"><h4>Stonepunk 10000 BCE</h4></header>
+            <img src="images/windows.png"
+            width="35" alt="windows">
+            <img src="images/apple.png"
+            width="35" alt="apple">
+            <img src="images/linux.png" onclick="alert('This game is supported on Linux')"
+            width="35" alt="linux">
+                <div class="subtext">
+                <button class="discount">NEW</button>
+                <p class="center_text"><p style="padding-right: 25px;">€19.99</p>
+                <button class="buy" onclick="cartValue()">Buy</button>
+                </div>
+        </div>
+    </div>
+        <script src="belt_exam.js"></script>
+</body>
+</html>
+

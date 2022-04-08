@@ -1,0 +1,52 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* MY CSS CODE */
+.container {
+    height: 200px;
+    padding: 20px;
+}
+.title {
+    text-align: center;
+    font-style: bold;
+    font-size: larger;
+}
+.top {
+    background-color: aqua;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 450px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+}
+.mid {
+    background-color: pink;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 450px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+}
+.bot {
+    background-color: whitesmoke;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 450px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+/* display flex:  applied to parent element to style children */
+/* ignores whitespace in our HTML when positioning elements */
+
+/*justify content: position elements exactly where we want them within larger element*/
+/* space around - evenly distributed in line with space around*/
